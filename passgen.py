@@ -33,7 +33,7 @@ SYMBOLS = ['@', '#', '$', '%', '=', ':', '?', '.', '/', '|', '~', '>',
 ans = True
 while ans:
     print("""
-    (?) Do You want to change password limit ? (default is 12) 
+    (?) Do you want to change password limit ? (default is 12) 
     """)
     ans = input("Please type y or n: ")
     if ans == "y":
